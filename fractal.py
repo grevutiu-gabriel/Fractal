@@ -2,7 +2,7 @@ from ctypes import *
 import colorsys
 import math
 
-dll = CDLL('_fractal')
+dll = cdll.LoadLibrary("./_fractal")
 
 dll.mandelbrot.argtypes = [c_int, c_int, c_int,
     c_double, c_double, c_double, c_double,
