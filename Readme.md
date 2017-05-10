@@ -3,4 +3,5 @@
 Run in Terminal
 
 ./build
+
 python main.py
